@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+    --color-1: #22252B;
+    --color-2: #53655C;
+    --color-3: #A3AEB1;
+    --color-4: #E5E8EB;
+    --color-5: #B09F95;
+  }
+body{
+    background-color: var(--color-1);
+}
+header{
+    background-color: #313847;
+    height: 3em;
+}
+#main{
+    width: 100%;
+    height: calc(100vh - 3em);
+    padding-top: 3em;
+    background-color: #A3AEB1;
+    overflow: hidden;
+    overflow-y: auto;
+    padding-inline: 1em;
+}
